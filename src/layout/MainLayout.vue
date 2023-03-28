@@ -1,18 +1,21 @@
 <template >
     <HomeSection/>
     <main>
-      <p>home page</p>
-    </main>  
+      <AboutMeSection/>
+      </main>  
     <Footer/>
   </template>
 <script>
+
+import AboutMeSection from "../sections/AboutMeSection.vue";
 import HomeSection from "@/sections/HomeSection.vue"
 import Footer from "@/components/Footer/Footer.vue";
 export default {
   name: "mainLayout", 
   components: {
     HomeSection,
-    Footer
+    Footer,
+    AboutMeSection
   }
 }
 </script>

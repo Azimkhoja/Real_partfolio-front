@@ -6,7 +6,7 @@
         </div>
         <div class="relative min-h-full">
             <!-- left side of home section -->
-            <div class="yarmiqora w-[93%] bg-black h-[1080px]  absolute -top-20 z-10">
+            <div class="yarmiqora w-[100%] bg-[#202020] h-[1080px]  absolute -top-20 z-10">
                 <div class="container mx-auto">
                     <div class="mt-[324px] flex flex-col">
                         <h1 class="text-[44px] text-[#13ff00]  font-bold">Azimkhoja Ahmadkhonov</h1>
@@ -37,12 +37,13 @@
 
                 </div>
             </div>
-            <div class="inline-block absolute left-1/2 top-[100px] -translate-x-1/2 mx-auto">
+            <!-- right side of home section -->
+            <div class="inline-block absolute left-1/2 top-[139px] -translate-x-1/2 mx-auto">
                 <div
                     class="green-circle flex justify-center items-center h-[900px] w-[900px] rounded-full border-[8px] border-[#13ff00] ">
                     <div class="h-[885px] w-[885px] rounded-full bg-transparent">
                         <div class="relative">
-                            <img src="../assets/images/Image_Portfolio.png" class="absolute -top-14 -left-5"
+                            <img src="../assets/images/Image_Portfolio.png" class="absolute -top-[52px] -left-2"
                                 alt="my photo" />
                         </div>
                     </div>
@@ -63,7 +64,9 @@ export default {
 </script>
 <style lang="css" scoped>
 .yarmiqora {
-    clip-path: polygon(0 0, 41% 0, 72% 100%, 0% 100%);
+    /* clip-path: polygon(0 0, 41% 0, 72% 100%, 0% 100%); */
+    clip-path: polygon(0 0, 37% 0, 66% 100%, 0% 100%);
+
 }
 .green-circle {
     box-shadow: 0 0 40px #13ff00, inset 0px 0px 40px #13ff00;
