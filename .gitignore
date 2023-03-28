@@ -9,6 +9,7 @@ lerna-debug.log*
 
 list-of-needs.doc
 node_modules
+images
 .DS_Store
 dist
 dist-ssr
