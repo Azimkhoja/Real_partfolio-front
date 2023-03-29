@@ -1,5 +1,6 @@
 <template>
-    <section id="about" class="bg-[#161616] font-[Poppins]">
+    <section id="about" class="bg-[#161616] font-[Poppins] relative">
+        <img src="../assets/images/ABOUT ME (1).png" class="absolute right-0 mt-[80px]" alt="about me text">
         <div class="container mx-auto">
             <div class="flex flex-col items-center ">
                 <h1 class="text-white text-[50px] font-bold  mt-[146px]">ABOUT ME</h1>
@@ -43,10 +44,10 @@
         </div>
     </section>
 
-    <section class="bg-[#161616] pt-[95px] h-screen font-[Poppins]">
+    <section class="bg-[#161616] pt-[95px] h-screen font-[Poppins] relative">
         <div class="container mx-auto ">
             <div class="wrapper flex justify-around  items-center text-white">
-                <div class="left-info flex flex-col">
+                <div class="left-info flex flex-col ml-20">
                     <div class="mb-[68px]">
                         <h1 class=" text-3xl font-bold mb-[52px]">Education</h1>
                         <p class="date text-[22px] ">January 2020 - December 2023</p>
@@ -59,10 +60,24 @@
                         <p class="text-[22px] text-[#C1C1C1]">Universidade Santa Cecília</p>
                     </div>
                 </div>
-                <div class="right-info"></div>
+                <div class="right-info flex flex-col ml-[140px]">
+                    <div class="mb-[68px]">
+                        <h1 class=" text-3xl font-bold mb-[52px]">Jobs</h1>
+                        <p class="date text-[22px] ">January 2020 - December 2023</p>
+                        <h2 class="text-[#13ff00] text-3xl font-medium mt-4 mb-2">Sistemas de informação</h2>
+                        <p class="text-[22px] text-[#C1C1C1]">Universidade Santa Cecília</p>
+                    </div>
+                    <div>
+                        <p class="date text-[22px] ">August 2018 - December 2019</p>
+                        <h2 class="text-[#13ff00] text-3xl font-medium mt-4 mb-2 w-[447px]">Técnico em Desenvolvimento de Sistema</h2>
+                        <p class="text-[22px] text-[#C1C1C1]">Universidade Santa Cecília</p>
+                    </div>
+                </div>
             </div>
+            <img src="../assets/images/ABOUT ME.png" class="absolute left-0  mt-20" alt="about me">
         </div>
     </section>
+
 </template>
 <script>
 export default {

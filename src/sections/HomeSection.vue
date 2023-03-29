@@ -14,16 +14,16 @@
                         <h2 class="text-white text-[50px] font-bold w-[600px]">Backend & Frontend Developer</h2>
                         <p class="text-[#8F8F8F] text-xl mt-[28px] w-[600px]">Fullstack developer focused on creating Websites and Web applications. I really like different projects that solve real problems.</p>
                         <div class="flex  mt-11">
-                            <div class="flex justify-between items-center bg-[#13ff00] p-2 rounded-lg">
+                            <a href="../assets/docs/Azimkhoja Ahmadkhonov.pdf" download="Azimkhoja Ahmadkhonov.pdf" class="flex justify-between items-center bg-[#13ff00] p-2 rounded-lg">
                                 <i class='bx bxs-download text-3xl'></i>
                                 <p class="text-xl ml-3">Download CV</p>
                                 <!-- <img src="../assets/images/cloud_down.svg" alt=""> -->
-                            </div>
-                            <div class="flex items-center bg-[#13ff00] rounded-lg px-3 ml-[120px]">
+                            </a>
+                            <a href="#project" class="flex items-center bg-[#13ff00] rounded-lg px-3 ml-[120px]">
                                 <!-- <img src="../assets/images/circle_down.svg" alt="circle down"> -->
-                                <i class='bx bxs-right-top-arrow-circle text-3xl' ></i>
-                                <p class="text-xl ml-3">Explore partfolio</p>
-                            </div>
+                                <i class='bx bxs-chevrons-down text-3xl'></i>
+                                <p class="text-xl ml-3">Explore portfolio</p>
+                            </a>
                             <!-- social media links -->
                         </div>
                             <ul class="flex justify-between items-center w-[428px] h-[62px] mt-[98px]">
@@ -64,9 +64,7 @@ export default {
 </script>
 <style lang="css" scoped>
 .yarmiqora {
-    /* clip-path: polygon(0 0, 41% 0, 72% 100%, 0% 100%); */
     clip-path: polygon(0 0, 37% 0, 66% 100%, 0% 100%);
-
 }
 .green-circle {
     box-shadow: 0 0 40px #13ff00, inset 0px 0px 40px #13ff00;

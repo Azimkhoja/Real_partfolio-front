@@ -2,12 +2,16 @@
     <HomeSection/>
     <main>
       <AboutMeSection/>
-      </main>  
+      <ProjectSection/>
+      <ContactSection/>
+    </main>  
     <Footer/>
   </template>
 <script>
 
 import AboutMeSection from "../sections/AboutMeSection.vue";
+import ProjectSection from "../sections/ProjectSection.vue";
+import ContactSection from "../sections/ContactSection.vue";
 import HomeSection from "@/sections/HomeSection.vue"
 import Footer from "@/components/Footer/Footer.vue";
 export default {
@@ -15,7 +19,9 @@ export default {
   components: {
     HomeSection,
     Footer,
-    AboutMeSection
+    AboutMeSection,
+    ProjectSection,
+    ContactSection,
   }
 }
 </script>
