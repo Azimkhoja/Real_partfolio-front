@@ -4,7 +4,7 @@
       <h1 class="text-[50px] text-white font-bold mt-[126px]">PROJECTS</h1>
       <div class="w-[65px] bg-[#13ff00] h-1 rounded-md"></div>
       <!-- here card div starts -->
-      <div class="card-wrapper container flex flex-wrap mt-[67px] gap-32 px-2">
+      <div class="card-wrapper container flex justify-center flex-wrap mt-[67px] gap-32">
         <!-- card number 1 -->
         <div class="card flex flex-col bg-[#272727] shadow-lg rounded-[18px]">
           <img src="../assets/images/unsplash_cZr2sgaxy3Q.png" alt="project1" />
@@ -125,7 +125,7 @@ export default {
 </script>
 <style lang="css">
 .circle-shadow{
-    box-shadow: 0 0 10  px 3px #13ff00;
+    box-shadow: 0 0 10px 5px #13ff00;
     background-color: #13ff00
 }
 </style>
