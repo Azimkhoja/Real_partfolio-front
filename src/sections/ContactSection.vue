@@ -1,30 +1,30 @@
 <template >
-    <section class="bg-[#161616] py-[212px] min-h-screen font-[Poppins]">
+    <section class=" bg-[#161616] py-[100px] sm:py-[212px] min-h-screen font-[Poppins]">
         <div class="container mx-auto">
-            <div class="contact-container  flex rounded-[33px]">
-                <div class="contact-left w-2/5 py-[92px]  bg-[#272727] rounded-l-[33px] ">
-                    <div class="flex flex-col ml-[110px]">
+        <div class="contact-container  flex  flex-col sm:flex-row rounded-[33px]">
+                <div class="contact-left w-full sm:w-2/5 py-20 sm:py-[92px]  bg-[#272727] sm:rounded-l-[33px] ">
+                    <div class="flex flex-col ml-[55px] sm:ml-[110px]">
                         <div class="flex items-center ">
-                            <h1 class="text-4xl text-white">CONTACT</h1>
-                            <div class="h-1 w-4/5 ml-2 bg-[#13ff00]"></div>
+                            <h1 class="text-2xl sm:text-4xl text-white">CONTACT</h1>
+                            <div class="h-0.5 sm:h-1 w-3/5 ml-2 bg-[#13ff00]"></div>
                         </div>
                         <div class="flex items-center mt-[78px]">
-                            <i class='bx bx-phone-call text-white text-4xl mr-3' ></i>
-                            <p  class="text-white text-2xl"> +998 93 778 67 78</p>
+                            <i class='bx bx-phone-call text-white text-2xl sm:text-4xl mr-3' ></i>
+                            <p  class="text-white  text-lg sm:text-2xl"> +998 93 778 67 78</p>
                         </div>
-                        <div class="flex items-center my-[56px]">
-                            <i class='bx bx-envelope  text-white text-4xl mr-3' ></i>
-                            <p class="text-white text-2xl">ahmadkhonovazimkhoja@gmail.com</p>
+                        <div class="flex items-center my-10 sm:my-[56px]">
+                            <i class='bx bx-envelope  text-white text-2xl sm:text-4xl mr-3' ></i>
+                            <p class="text-white text-lg sm:text-2xl">ahmadkhonovazimkhoja@ </p>
                         </div>
                         <div class="flex items-center">
-                            <img src="../assets/images/location-marker.svg" alt="location icon">
-                            <p class="text-white text-2xl ml-3" >Uzbekistan, Tashkent</p>
+                            <img src="../assets/images/location-pointer.png" class="w-[30px]" alt="location icon">
+                            <p class="text-white  text-lg sm:text-2xl ml-3" >Uzbekistan, Tashkent</p>
                         </div>
                     </div>
-                    <div class="h-1 w-3/5 mt-[151px] bg-[#13ff00]"></div>
+                    <div class="h-0.5 sm:h-1 w-3/5 mt-[78px] sm:mt-[151px] bg-[#13ff00]"></div>
                 </div>
                 <!-- right side of contact section starting -->
-                <div class="contact-right bg-[#202020] w-3/5  rounded-r-[33px]">
+                <div class="contact-right bg-[#202020] w-full sm:w-3/5  sm:rounded-r-[33px]">
 
                     <div class="py-8 px-4 mx-auto max-w-3xl lg:py-16">
                         <form action="#">
@@ -57,9 +57,9 @@
                                         class="block p-2.5 w-full text-sm text-white border-none bg-[#343434] rounded-lg  focus:ring-[#13ff00] focus:border-[#13ff00] dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"></textarea>
                                 </div>
                             </div>
-                            <a href="https://ahmadkhonovazimkhoja@gmail.com" class="flex justify-center items-center w-[205px]  py-2 bg-[#13ff00] rounded-lg mt-10">
-                                <i class='bx bxs-envelope text-3xl mr-5' ></i> 
-                                <p class="text-xl font-medium">
+                            <a href="https://ahmadkhonovazimkhoja@gmail.com" class="flex justify-center items-center max-w-[100px] sm:max-w-[205px]  py-2 bg-[#13ff00] rounded-lg  mt-5 sm:mt-10">
+                                <i class='bx bxs-envelope text-xl sm:text-3xl mr-2 sm:mr-5' ></i> 
+                                <p class=" text-lg sm:text-xl font-medium">
                                     Send
                                 </p>
                                 
