@@ -18,7 +18,7 @@
                             Backend & Frontend Developer</h2>
                         <p class="text-[#8F8F8F] text-center sm:text-left text-xl mt-[28px] max-w-[600px]">Fullstack
                             developer focused on creating Websites and Web applications. I really like different projects
-                            that solve real problems.</p>
+                            that solves real problems.</p>
                         <div class="flex flex-col items-center sm:flex-row sm:justify-start  mt-11">
                             <a href="../assets/docs/Azimkhoja Ahmadkhonov.pdf" download="Azimkhoja Ahmadkhonov.pdf"
                                 class="flex items-center bg-[#13ff00] p-2 rounded-lg  w-[65%] sm:w-auto ">
