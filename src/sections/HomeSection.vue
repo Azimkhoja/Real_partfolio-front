@@ -14,7 +14,7 @@
                             class="h-[5px] mt-2 mb-4 sm:my-3 mx-auto block sm:ml-48 rounded-md w-[60%] sm:w-[416px] text-end bg-[#13ff00]">
                         </div>
                         <h2
-                            class="text-white text-center text-4xl sm:leading-[50px] sm:text-left sm:text-[50px] font-bold max-w-[600px]">
+                            class="text-white text-center text-2xl sm:text-4xl sm:leading-[50px] sm:text-left sm:text-[50px] font-bold max-w-[600px]">
                             Backend & Frontend Developer</h2>
                         <p class="text-[#8F8F8F] text-center sm:text-left text-xl mt-[28px] max-w-[600px]">Fullstack
                             developer focused on creating Websites and Web applications. I really like different projects
