@@ -14,7 +14,7 @@
                         </div>
                         <div class="flex items-center my-10 sm:my-[56px]">
                             <i class='bx bx-envelope  text-white text-2xl sm:text-4xl mr-3' ></i>
-                            <p class="text-white text-lg sm:text-2xl">ahmadkhonovazimkhoja@ </p>
+                            <p class="text-white text-lg sm:text-2xl">ahmadkhonovazimkhoja</p>
                         </div>
                         <div class="flex items-center">
                             <img src="../assets/images/location-pointer.png" class="w-[30px]" alt="location icon">
