@@ -1,5 +1,5 @@
 <template >
-    <section class=" bg-[#161616] py-[100px] sm:py-[212px] min-h-screen font-[Poppins]">
+    <section id="contact" class=" bg-[#161616] py-[100px] sm:py-[212px] min-h-screen font-[Poppins]">
         <div class="container mx-auto">
         <div class="contact-container  flex  flex-col sm:flex-row rounded-[33px]">
                 <div class="contact-left w-full sm:w-2/5 py-20 sm:py-[92px]  bg-[#272727] sm:rounded-l-[33px] ">
