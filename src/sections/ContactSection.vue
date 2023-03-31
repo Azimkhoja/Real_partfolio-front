@@ -3,7 +3,7 @@
         <div class="container mx-auto">
         <div class="contact-container  flex  flex-col sm:flex-row rounded-[33px]">
                 <div class="contact-left w-full sm:w-2/5 py-20 sm:py-[92px]  bg-[#272727] sm:rounded-l-[33px] ">
-                    <div class="flex flex-col ml-[55px] sm:ml-[110px]">
+                    <div class="flex flex-col ml-[50px] sm:ml-[110px]">
                         <div class="flex items-center ">
                             <h1 class="text-2xl sm:text-4xl text-white">CONTACT</h1>
                             <div class="h-0.5 sm:h-1 w-3/5 ml-2 bg-[#13ff00]"></div>
