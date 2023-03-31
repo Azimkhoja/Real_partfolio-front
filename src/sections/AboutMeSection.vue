@@ -1,6 +1,6 @@
 <template>
     <section id="about" class="bg-[#161616] font-[Poppins] relative">
-        <img src="../assets/images/ABOUT ME (1).png" class="absolute hidden sm:block right-0 mt-[80px]" alt="about me text" />
+        <img src="../assets/images/ABOUTME-1.png" class="absolute hidden sm:block right-0 mt-[80px]" alt="about me text" />
         <div class="container mx-auto">
             <div class="flex flex-col items-center">
                 <h1 class="text-white text-4xl sm:text-[50px] font-bold mt-20 sm:mt-[146px]">ABOUT ME</h1>
@@ -37,7 +37,7 @@
                         <p class="sm:text-white text-[#8f8f8f] text-xl sm:text-2xl text-center sm:text-left sm:ml-4 ">Building backend side of applications and their architecture</p>
                     </div>
                     <div class="flex flex-col sm:flex-row items-center w-full sm:w-[385px] mb-14 sm:mb-0 pl-3 sm:pl-0">
-                        <img src="../assets/images/crm (2).png" class="w-[70px] sm:w-[100px] mb-2 sm:mb-0" alt="code block" />
+                        <img src="../assets/images/crm-2.png" class="w-[70px] sm:w-[100px] mb-2 sm:mb-0" alt="code block" />
                         <p class="sm:text-white text-[#8f8f8f] text-xl sm:text-2xl text-center sm:text-left sm:ml-4">Developing CRM system to grow businesses</p>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
                     </div>
                 </div>
             </div>
-            <img src="../assets/images/ABOUT ME.png" class="absolute hidden sm:block left-0 mt-10" alt="about me" />
+            <img src="../assets/images/ABOUTME.png" class="absolute hidden sm:block left-0 mt-10" alt="about me" />
         </div>
     </section>
 </template>
