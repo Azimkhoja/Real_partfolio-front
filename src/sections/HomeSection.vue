@@ -8,7 +8,7 @@
             <div class="yarmiqora w-[100%] bg-[#202020] h-full sm:h-[1080px]  absolute top-0 sm:-top-20 z-10">
                 <div class="container mx-auto">
                     <div class="mt-[150px] px-5 sm:px-0 sm:mt-[324px] flex flex-col">
-                        <h1 class="text-4xl text-center sm:text-left sm:text-[44px] text-[#13ff00]  font-bold">Azimkhoja
+                        <h1 class="text-4xl text-center sm:text-left sm:text-[44px] text-[#13ff00]  font-bold">Odil
                             Ahmadkhonov</h1>
                         <div
                             class="h-[5px] mt-2 mb-4 sm:my-3 mx-auto block sm:ml-48 rounded-md w-[60%] sm:w-[416px] text-end bg-[#13ff00]">
