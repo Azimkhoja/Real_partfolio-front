@@ -4,7 +4,7 @@
         <div class="container mx-auto">
             <div class="flex flex-col items-center">
                 <h1 class="text-white text-4xl sm:text-[50px] font-bold mt-20 sm:mt-[146px]">ABOUT ME</h1>
-                <div class="w-[65px] bg-[#13ff00] mt- sm:mt-2  h-1 rounded-md"></div>
+                <div class="w-[65px] bg-[#13ff00] mt-1 sm:mt-2  h-1 rounded-md"></div>
                 <div class="text-center max-w-[942px] mt-[52px] mb-[80px] sm:mb-[146px]">
                     <p class="text-[#8F8F8F] text-lg sm:text-3xl leading-[35px] sm:leading-[45px]">
                         I'm <strong class="text-[#13ff00] font-medium">Azimkhoja</strong>,
