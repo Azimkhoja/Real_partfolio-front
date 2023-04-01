@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>Admin layout </p>
+        <p>Admin layout</p>
     </div>
 </template>
 <script>

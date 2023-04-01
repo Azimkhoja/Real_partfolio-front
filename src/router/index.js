@@ -5,7 +5,7 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: "/",
+      path: "/admin",
       name: "mainLayout",
       component: MainLayout,
       // children: [
@@ -32,7 +32,7 @@ const router = createRouter({
       // ],
     },
     {
-      path: "/admin",
+      path: "/",
       name: "adminLayout",
       component: AdminLayout,
     },
