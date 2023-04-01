@@ -135,12 +135,12 @@
         </div>
       </div>
       <!-- card wrapper ends here -->
-      <ul class="hidden sm:flex justify-between items-center mt-[111px] w-[100px]">
+      <!-- <ul class="hidden sm: justify-between items-center mt-[111px] w-[100px]">
         <li class="circle-shadow text-white rounded-full w-4 h-4"></li>
         <li class="border-4 text-white rounded-full w-4 h-4"></li>
         <li class="border-4 text-white rounded-full w-4 h-4"></li>
         <li class="border-4 text-white rounded-full w-4 h-4"></li>
-      </ul>
+      </ul> -->
     </div>
   </section>
 </template>
