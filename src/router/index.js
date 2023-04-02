@@ -6,6 +6,11 @@ const router = createRouter({
   routes: [
     {
       path: "/admin",
+      name: "adminLayout",
+      component: AdminLayout,
+    },
+    {
+      path: "/",
       name: "mainLayout",
       component: MainLayout,
       // children: [
@@ -30,11 +35,6 @@ const router = createRouter({
       //     component: () => import("@/views/ContactView.vue"),
       //   },
       // ],
-    },
-    {
-      path: "/",
-      name: "adminLayout",
-      component: AdminLayout,
     },
   ],
 });
